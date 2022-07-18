@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/plataforma.css">
+    <title>Plataforma EduVer</title>
+</head>
+<body>
+    <form class="form" id="form">
+        <a href="index.html"> <img src="./images/EduVer.png" width="200" class="unilogo" align="left"></a>
+        <h1>Bienvenido, profesor!</h1>
+        <div class="formContainer">
+            <div class="form_group">
+                <input type="text" id="nombreAlumno" class="form_input">
+                <label for="nombreAlumno" class="form_label">  Nombre del alumno</label>
+                <span class="form_line"></span>
+            </div>
+        <div class="formContainer">
+            <div class="form_group">
+                <input type="text" id="calificacion1" class="form_input">
+                <label for="calificacion1" class="form_label">  Calificacion Primer Parcial</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="calificacion2" class="form_input">
+                <label for="calificacion2" class="form_label">  Calificacion Segundo Parcial</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="calificacion3" class="form_input">
+                <label for="calificacion3" class="form_label">  Calificacion Examen Final</label>
+                <span class="form_line"></span>
+            </div>
+            <br />
+        <input type="submit" value="Calcular calificacion final" id="botonFinal" onclick="promediar()">
+        <input type="submit" value="Guardar calificacion final" id="botonGuardar" onclick="guardar()">   
+        </div>
+    </form>
+<script src="/src/plataforma.js"></script>    
+</body>
+</html>
