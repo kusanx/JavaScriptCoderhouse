@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #2b2be2;
+    background-color:#030353;
     background-image: radial-gradient(circle at center center, #4ab6dd, #e5e5f7), repeating-radial-gradient(circle at center center, #4ab6dd, #4ab6dd, 10px, transparent 20px, transparent 10px);
     background-blend-mode: multiply;
     display: flex;
@@ -110,4 +110,8 @@ body{
     .form_title{
         font-size: 1.8rem;
     }
+}
+
+.unilogo{
+    margin-top: 1em
 }
